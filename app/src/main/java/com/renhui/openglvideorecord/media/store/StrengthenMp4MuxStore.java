@@ -17,7 +17,7 @@ import java.util.concurrent.TimeUnit;
 public class StrengthenMp4MuxStore implements IHardStore {
 
     private final String tag = getClass().getSimpleName();
-    private MediaMuxer mMuxer;
+    private MediaMuxer mMuxer; //“Ù ”∆µªÏ∫œ
     private final boolean av;
     private String path;
     private int audioTrack = -1;
